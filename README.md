@@ -226,7 +226,7 @@ public class NashornHelper {
 ```java
 NashornHelper engine = NashornHelper.getInstance();
 ```
-执行调用javasript，java中获取`promise`对象
+执行调用javasript，java中获取`promise`对象
 ```java
 ScriptObjectMirror promise = (ScriptObjectMirror) engine.callRender("ssr_render");
 ```
